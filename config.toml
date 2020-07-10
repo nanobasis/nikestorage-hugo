@@ -1,0 +1,40 @@
+baseURL = "http://nikestorage.com/"
+languageCode = "en-us"
+title = "Nike Storage Center: Mini Storage, Self Storage, RV, Boat, Trailer, Auto Storage near Hudson WI"
+theme = "nikestorage"
+publishDir = "docs"
+
+[params]
+  author = "Taylor Brink <taylor@nanobasis.com>"
+  googleVerification = "LsaRtwamtBl-jhxpY-2R8IQ0ACbmDqXzxD_YeXEn0e0"
+  header = "Nike Storage Center"
+  subheader = "Household, Automobile, RV, Boat & Trailer Storage"
+  description = "We offer secure self storage, indoor and outdoor boat storage, RV storage, automobile storage and trailer storage near Roberts WI, Hudson WI, Stillwater MN, New Richmond WI, River Falls WI, Woodbury MN, Somerset WI, Hammond WI and the surrounding rural areas."
+  keywords = "storage, automobile, boat, rv, car, indoor, outdoor, household, container, twin cities, st. paul, minneapolis, hudson, roberts, woodbury, new richmond, river falls, houlton, wisconsin, self storage, shed, western, mini, mouse proof, secure, trailer, hammond, baldwin, stillwater, unit"
+  css = [ ]
+  js = [ "contact-form.js?1500332566" ]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/mini-storage-self-storage-sizes-prices/"
+    name = "Sizes & Prices"
+    weight = 2
+
+[[menu.main]]
+    url = "/vehicle-storage-rv-boat-car-storage/"
+    name = "Vehicle Storage"
+    weight = 3
+
+[[menu.main]]
+    url = "/history-of-the-site/"
+    name = "History of the Site"
+    weight = 4
+
+[[menu.main]]
+    url = "/contact-us/"
+    name = "Contact Us"
+    weight = 5

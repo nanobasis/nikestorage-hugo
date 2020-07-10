@@ -1,0 +1,17 @@
+<!-- google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+
+<!-- pure w/normalize -->
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
+<!-- pure grids-responsive -->
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+
+<!-- colorbox -->
+<link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css">
+
+<!-- main -->
+<link rel="stylesheet" href="/css/main.css?1234567890">
+
+<!-- custom -->
+{{ range .Site.Params.css }} <link rel="stylesheet" href="/css/{{ . }}"> {{ end }}

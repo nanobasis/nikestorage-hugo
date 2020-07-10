@@ -1,0 +1,12 @@
+name = "Nikestorage"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = "http://nikestorage.com/"
+tags = []
+features = []
+min_version = "0.25.1"
+
+[author]
+  name = "Nanobasis"
+  homepage = "http://nanobasis.com"

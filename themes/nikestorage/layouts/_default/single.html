@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<main>
+  {{ if eq .Type "directions" }}
+    {{ partial "directions" . }}
+  {{ else }}
+    {{ partial "single" . }}
+    {{ if in .Title "Contact Us" }}{{ partial "contact-form" }}{{ end }}
+  {{ end }}
+</main>
+
+{{ partial "footer" . }}

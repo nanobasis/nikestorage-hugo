@@ -1,0 +1,13 @@
+<h1>Self Storage near {{ .Params.Name }}</h1>
+
+<p>Nike Storage is located just {{ .Params.Distance }} miles from {{ .Params.Name }} and offers self storage / mini storage options for households near {{ .Params.Name }}, as well as outdoor and indoor vehicle storage options, including RV storage, boat storage, camper storage, automobile storage, travel trailer storage, and similar vehicle storage for those who live near {{ .Params.Name }}.</p>
+
+<h4>Driving route from {{ .Params.Name }}</h3>
+
+<p>{{ .Params.Route }}</p>
+
+<h3>Map from {{ .Params.Name }} to Nike Storage Center</h3>
+
+<div><iframe class="google-embedded" width="600" height="450" {{ printf "src=%q" .Params.Map | safeHTMLAttr }}
+  frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>

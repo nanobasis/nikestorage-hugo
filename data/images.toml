@@ -1,0 +1,37 @@
+# images for /home
+
+[[home]]
+  file = "nike-storage-center-mini-self-storage"
+
+[[home]]
+  file = "mouse-proof-steel-shipping-containers"
+
+# images for /history-of-the-site
+
+[[history-of-the-site]]
+  file = "nike-hercules-missile-in-parade"
+
+[[history-of-the-site]]
+  file = "nike-hercules-missile-on-storage-site"
+
+# images for /mini-storage-self-storage-sizes-prices
+
+[[mini-storage-self-storage-sizes-prices]]
+  file = "concrete-block-mini-storage-self-storage"
+
+[[mini-storage-self-storage-sizes-prices]]
+  file = "concrete-block-10x30-13x31-storage-unit"
+
+[[mini-storage-self-storage-sizes-prices]]
+  file = "mouse-proof-8x20-steel-container"
+
+[[mini-storage-self-storage-sizes-prices]]
+  file = "inside-mouse-proof-steel-shipping-container-unit"
+
+# images for /vehicle-storage-rv-boat-car-storage
+
+[[vehicle-storage-rv-boat-car-storage]]
+  file = "rv-storage-boat-storage-camper-storage"
+
+[[vehicle-storage-rv-boat-car-storage]]
+  file = "travel-trailer-storage-automobile-storage"

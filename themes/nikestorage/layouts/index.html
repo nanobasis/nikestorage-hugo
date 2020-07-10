@@ -1,0 +1,7 @@
+{{ partial "header" . }}
+
+<main>
+  {{ with $.Site.GetPage "page" "home.md" }}{{ partial "single" . }}{{ end }}
+</main>
+
+{{ partial "footer" . }}
